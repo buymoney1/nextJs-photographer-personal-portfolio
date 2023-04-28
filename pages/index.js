@@ -61,14 +61,14 @@ export default function Home() {
                 </p>
       
                 <div className="fixed left-0 mt-5">
-                <Image width={100} src={shape} className=""/>
+                <Image width={100} src={shape}  alt="shape"/>
                 </div>
                 <div className="fixed right-0 top-1/4">
-                <Image width={110} src={shape2} className=""/>
+                <Image width={110} src={shape2}  alt="shape"/>
                 </div>
               </div>
               <div className="basis-1/5 flex-1 ">
-                <Image src={banner}/>
+                <Image src={banner}  alt="banner "/>
               </div>
             </div>
           </div>
@@ -146,6 +146,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={portfolio1}
+                alt="portfolio "
               />
             </div>
             <div className="basis-1/4 flex-1">
@@ -155,6 +156,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={portfolio2}
+                alt="portfolio "
               />
             </div>
             <div className="basis-1/4 flex-1">
@@ -164,6 +166,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={portfolio3}
+                alt="portfolio "
               />
             </div>
             <div className="basis-1/4 flex-1">
@@ -173,6 +176,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={portfolio5}
+                alt="portfolio "
               />
             </div>
             <div className="basis-1/4 flex-1">
@@ -182,6 +186,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={portfolio6}
+                alt="portfolio "
               />
             </div>
             <div className="basis-1/4 flex-1">
@@ -191,6 +196,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={portfolio4}
+                alt="portfolio "
               />
             </div>
           </div>
